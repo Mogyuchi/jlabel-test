@@ -8,7 +8,7 @@ permissions: {}
 
 jobs:
   release-please:
-    if: github.repository_owner == 'jpreprocess'
+    if: github.repository_owner == 'Mogyuchi'
     permissions: {}
     runs-on: ubuntu-latest
     outputs:
