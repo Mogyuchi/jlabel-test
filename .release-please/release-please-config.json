@@ -75,16 +75,7 @@
   },
   "plugins": [
     {
-      "type": "cargo-workspace",
-      "merge": false
-    },
-    {
-      "type": "linked-versions",
-      "groupName": "jlabel-crates",
-      "components": [
-        "jlabel",
-        "jlabel-question"
-      ]
+      "type": "cargo-workspace"
     }
   ],
   "bump-minor-pre-major": true,
