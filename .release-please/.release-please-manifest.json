@@ -1,3 +1,4 @@
 {
-  ".": "0.1.4"
+  "crates/jlabel": "0.1.4",
+  "crates/jlabel-question": "0.1.4"
 }

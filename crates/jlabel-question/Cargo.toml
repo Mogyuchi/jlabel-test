@@ -3,9 +3,9 @@ name = "jlabel-question"
 description = "HTS-style full-context label question parser and matcher"
 
 documentation = "https://docs.rs/jlabel-question"
+version = "0.1.4"
 
 edition.workspace = true
-version.workspace = true
 rust-version.workspace = true
 license.workspace = true
 repository.workspace = true

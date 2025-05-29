@@ -19,7 +19,6 @@ jobs:
       - uses: googleapis/release-please-action@a02a34c4d625f9be7cb89156071d8567266a2445 # v4.2.0
         id: release-please
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           config-file: .release-please/release-please-config.json
           manifest-file: .release-please/.release-please-manifest.json
           skip-github-pull-request: ${{ startsWith(github.event.head_commit.message, 'release:') && github.event.head_commit.author.name == 'github-actions[bot]' }}
