@@ -64,10 +64,6 @@
   ],
   "release-type": "rust",
   "packages": {
-    ".": {
-      "component": "root",
-      "changelog-path": "CHANGELOG.md"
-    },
     "crates/jlabel": {
       "component": "jlabel",
       "changelog-path": "CHANGELOG.md"
@@ -86,7 +82,6 @@
       "type": "linked-versions",
       "groupName": "jlabel-crates",
       "components": [
-        "root",
         "jlabel",
         "jlabel-question"
       ]
