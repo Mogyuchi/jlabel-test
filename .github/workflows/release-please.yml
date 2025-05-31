@@ -24,6 +24,7 @@ jobs:
     permissions:
       contents: write      # Needed for creating releases, tags, and updating manifest/config files
       pull-requests: write # Needed for creating/updating release PRs
+      issues: write
     runs-on: ubuntu-latest
     outputs:
       release_created: ${{ steps.release-please.outputs.release_created }}
