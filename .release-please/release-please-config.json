@@ -66,11 +66,13 @@
   "packages": {
     "crates/jlabel-question": {
       "component": "jlabel-question",
-      "changelog-path": "CHANGELOG.md"
+      "changelog-path": "CHANGELOG.md",
+      "extra-files": ["README.md"]
     },
     "crates/jlabel": {
       "component": "jlabel",
-      "changelog-path": "CHANGELOG.md"
+      "changelog-path": "CHANGELOG.md",
+      "extra-files": ["README.md"]
     }
   },
   "plugins": [
@@ -81,10 +83,7 @@
     {
       "type": "linked-versions",
       "groupName": "jlabel-crates",
-      "components": [
-        "jlabel",
-        "jlabel-question"
-      ]
+      "components": ["jlabel", "jlabel-question"]
     }
   ],
   "bump-minor-pre-major": true,
